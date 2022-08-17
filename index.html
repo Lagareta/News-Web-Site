@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="actualites.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="inner_header">
+            <div class="logo_container">
+                <h1>A l'<span>Actu</span></h1>
+            </div>
+            
+            <ul class="navigation">
+                <a><button><li>Accueil</button></li></a>
+                <a><button><li>Explorer</button></li></a>
+                <a><button><li>Informations</button></li></a>
+                <a href="contact.html"><button><li>Contact</button></li></a>
+                <input type="text" placeholder="Rechercher">
+            </ul>
+        </div>
+    </div>
+
+    <input type="button" value="Appel News API" onclick="buttonClickedGET()">
+    <p id="actu">toto</p>
+
+</body>
+</html>
